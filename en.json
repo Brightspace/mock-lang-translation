@@ -1,0 +1,7 @@
+{
+  term: "value",
+  term2: "value2",
+  object: {
+    term3: "value3"
+  }
+}
