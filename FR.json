@@ -1,0 +1,11 @@
+{
+ "package": {
+  "component1": {
+   "term1": "défaulte1",
+   "term2": "défault2"
+  },
+  "component2": {
+   "term3": "défaulte3"
+  }
+ }
+}
