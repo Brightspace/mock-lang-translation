@@ -4,5 +4,8 @@
   "object": {
     "term3": "value3",
     "term4": "value4"
+  },
+  "object2": {
+    "term5": "value5"
   }
 }
