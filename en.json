@@ -1,10 +1,10 @@
 {
   "term": "value1",
+  "term2": "value2",
   "object": {
     "term4": "value4"
   },
   "object5": {
-    "term5": "value5",
     "term6": "value6"
   }
 }
