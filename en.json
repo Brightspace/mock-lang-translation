@@ -1,7 +1,6 @@
 {
   "term": "value1",
   "object": {
-    "term3": "value3",
     "term4": "value4"
   },
   "object5": {
