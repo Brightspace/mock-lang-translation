@@ -99,8 +99,8 @@
 			"ReportHeader" : "Interactions per tool: {startDate} - {endDate}",
 			"ToolIdColumnHeader" : "Tool Id",
 			"ToolNameColumnHeader" : "Tool Name",
-			"ToolAccessColumnHeader" : "Tool Access Events",
-			"ToolPercentageColumnHeader" : "Tool Access Percentage"			
+			"ToolAccessColumnHeaderTEST" : "Tool Access EventsTEST",
+			"ToolPercentageColumnHeaderTEST" : "Tool Access PercentageTEST"			
 		}
 	}
 }
