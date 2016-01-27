@@ -1,0 +1,106 @@
+{
+ "Common": {
+  "Controls": {
+   "TextExportCSV": "导出到 CSV",
+   "TextExportXLSX": "导出到 XLSX",
+   "TitleExportCSV": "将当前选定的日期范围导出到 CSV",
+   "TitleExportXLSX": "将当前选定的日期范围导出到 XLSX",
+   "TitleExportAll": "将所有数据导出到 Excel 工作簿"
+  },
+  "Errors": {
+   "General": "抱歉，加载报告时遇到技术错误。",
+   "Meta": "尝试修改屏幕上的错误时遇到错误。"
+  },
+  "Misc": {
+   "FeatureUnsupported": "您的浏览器不支持此功能",
+   "Loading": "正在加载..."
+  }
+ },
+ "LoginsReport": {
+  "Misc": {
+   "Summary": "从 {startDate} 到 {endDate} 期间发生了 {countLine} 次登录事件",
+   "TimeZoneNote": "所显示的时间为格林尼治标准时间 (GMT 0:00)",
+   "TodaySoFar": "今天到现在为止",
+   "SoFar": "迄今为止",
+   "LoginEvents": "登录事件"
+  },
+  "Headers": {
+   "TotalPerDay": "每天总登录次数",
+   "TotalPerMonth": "每月总登录次数",
+   "TotalPerDayForRole": "{role} 每天的总登录次数",
+   "TotalPerMonthForRole": "{role} 每月的总登录次数"
+  },
+  "Errors": {
+   "Accessibility": "尝试填写可访问性数据表格时出现错误。"
+  },
+  "Warnings": {
+   "StartDateGTEndDate": "您选择的开始日期晚于结束日期。开始日期已更改为结束日期前的最晚可行日期：{date}。",
+   "EndDateLTStartDate": "您选择的结束日期早于开始日期。结束日期已更改为开始日期后的最早可行日期：{date}。",
+   "StartDateInvalid": "开始日期不是有效的月/日/年格式。我们已将其重置为之前所选日期：{date}。",
+   "ShortStartDateInvalid": "请按照 MM/DD/YYYY 格式输入",
+   "EndDateInvalid": "结束日期不是有效的月/日/年格式。我们已将其重置为之前所选日期：{date}。",
+   "ShortEndDateInvalid": "请按照 MM/DD/YYYY 格式输入"
+  },
+  "Controls": {
+   "LabelStartDate": "开始日期",
+   "LabelEndDate": "结束日期",
+   "LabelGranularity": "粒度",
+   "OptionGranularityPerDay": "每天",
+   "OptionGranularityPerMonth": "每月",
+   "AccessibilityTableHeader": "登录报告数据",
+   "AccessibilityTableSummary": "包含登录报告结果的数据表格",
+   "AccessibilityTableColumnDate": "日期",
+   "AccessibilityTableColumnLogins": "登录次数",
+   "AccessibilityStartDateTitle": "报告的开始日期格式为月/日/年",
+   "AccessibilityEndDateTitle": "报告的结束日期格式为月/日/年",
+   "LabelRole": "角色",
+   "OptionAllRoles": "所有角色"
+  },
+  "Export": {
+   "ReportName": "登录报告",
+   "DateColumnHeader": "日期",
+   "LoginColumnHeader": "登录事件"
+  }
+ },
+ "ToolAccessReport": {
+  "Misc": {
+   "TimeZoneNote": "使用格林尼治标准时间 (GMT 0:00) 计量的天数"
+  },
+  "Headers": {
+   "InteractionsPerTool": "每个工具的互动次数",
+   "Summary": "{startDate} &ndash; {endDate}"
+  },
+  "Tooltip": {
+   "Tooltip": "{toolName} 已被查看 {numberOfViews} 次",
+   "TooltipSevenDays": "{toolName} 在最近 7 天内已被查看 {numberOfViews} 次",
+   "TooltipThirtyDays": "{toolName} 在最近 30 天内已被查看 {numberOfViews} 次",
+   "TooltipTwelveMonths": "{toolName} 在最近 12 个月内已被查看 {numberOfViews} 次"
+  },
+  "Controls": {
+   "LabelTimeSpan": "时间跨度",
+   "OptionTimeSpanSevenDays": "最近 7 天",
+   "OptionTimeSpanThirtyDays": "最近 30 天",
+   "OptionTimeSpanTwelveMonths": "最近 12 个月",
+   "AccessibilityTableSummary": "包含工具访问报告结果的数据表格"
+  },
+  "TableHeaders": {
+   "Tool": "工具",
+   "PercentViews": "查看次数百分比",
+   "TotalViews": "总查看次数"
+  },
+  "Errors": {
+   "Table": "尝试显示数据表格时出错。"
+  },
+  "PageTitles": {
+   "GeneralError": "加载报告时出错"
+  },
+  "Export": {
+   "ReportName": "工具访问报告",
+   "ReportHeader": "每个工具的互动次数：{startDate} - {endDate}",
+   "ToolIdColumnHeader": "工具 ID",
+   "ToolNameColumnHeader": "工具名称",
+   "ToolAccessColumnHeader": "工具访问事件",
+   "ToolPercentageColumnHeader": "工具访问百分比"
+  }
+ }
+}
