@@ -1,0 +1,106 @@
+{
+ "Common": {
+  "Controls": {
+   "TextExportCSV": "CSV にエクスポート",
+   "TextExportXLSX": "XLSX にエクスポート",
+   "TitleExportCSV": "現在選択されている日付範囲を CSV　にエクスポート",
+   "TitleExportXLSX": "現在選択されている日付範囲を XLSX　にエクスポート",
+   "TitleExportAll": "すべてのデータを Excel ブックにエクスポート"
+  },
+  "Errors": {
+   "General": "申し訳ありませんが、レポートの読み込み中に技術的なエラーが発生しました。",
+   "Meta": "画面に表示されたエラーを修正しようとしたときに、エラーが発生しました。"
+  },
+  "Misc": {
+   "FeatureUnsupported": "この機能はお使いのブラウザでサポートされていません",
+   "Loading": "読み込み中..."
+  }
+ },
+ "LoginsReport": {
+  "Misc": {
+   "Summary": "{startDate} から {endDate} まで　{countLine} 回のログインイベントが発生しました",
+   "TimeZoneNote": "表示される時刻は、グリニッジ標準時（GMT 0:00）です",
+   "TodaySoFar": "今日現在まで",
+   "SoFar": "現在まで",
+   "LoginEvents": "ログインイベント"
+  },
+  "Headers": {
+   "TotalPerDay": "1 日あたりのログイン総数",
+   "TotalPerMonth": "1 か月あたりのログイン総数",
+   "TotalPerDayForRole": "{role}　の 1 日あたりのログイン総数",
+   "TotalPerMonthForRole": "{role}　の 1 か月あたりのログイン総数"
+  },
+  "Errors": {
+   "Accessibility": "アクセシビリティデータテーブルを自動入力しようとしたときに、エラーが発生しました。"
+  },
+  "Warnings": {
+   "StartDateGTEndDate": "終了日より後の開始日が選択されました。開始日が、終了日の　{date}　直前の日付に変更されました。",
+   "EndDateLTStartDate": "開始日より前の終了日が選択されました。終了日が、開始日の　{date}　直後の日付に変更されました。",
+   "StartDateInvalid": "開始日が、有効な月/日/年の形式になっていません。以前に選択した {date}　の日付にリセットされました。",
+   "ShortStartDateInvalid": "MM/DD/YYYY　の形式で入力してください",
+   "EndDateInvalid": "終了日が、有効な月/日/年の形式になっていません。以前に選択した {date}　の日付にリセットされました。",
+   "ShortEndDateInvalid": "MM/DD/YYYY　の形式で入力してください"
+  },
+  "Controls": {
+   "LabelStartDate": "開始日",
+   "LabelEndDate": "終了日",
+   "LabelGranularity": "詳細度",
+   "OptionGranularityPerDay": "1 日あたり",
+   "OptionGranularityPerMonth": "1 か月あたり",
+   "AccessibilityTableHeader": "ログインレポートデータ",
+   "AccessibilityTableSummary": "ログインレポートの結果を含むデータテーブル",
+   "AccessibilityTableColumnDate": "日付",
+   "AccessibilityTableColumnLogins": "ログイン数",
+   "AccessibilityStartDateTitle": "レポートの開始日（月/日/年形式）",
+   "AccessibilityEndDateTitle": "レポートの終了日（月/日/年形式）",
+   "LabelRole": "役割",
+   "OptionAllRoles": "すべての役割"
+  },
+  "Export": {
+   "ReportName": "ログインレポート",
+   "DateColumnHeader": "日付",
+   "LoginColumnHeader": "ログインイベント"
+  }
+ },
+ "ToolAccessReport": {
+  "Misc": {
+   "TimeZoneNote": "グリニッジ標準時（GMT 0:00）を使用して測定した日数"
+  },
+  "Headers": {
+   "InteractionsPerTool": "ツールあたりのインタラクション",
+   "Summary": "{startDate}～{endDate}"
+  },
+  "Tooltip": {
+   "Tooltip": "{toolName} は {numberOfViews} 回表示されました",
+   "TooltipSevenDays": "{toolName} は過去 7 日間に {numberOfViews} 回表示されました",
+   "TooltipThirtyDays": "{toolName} は過去 30 日間に {numberOfViews} 回表示されました",
+   "TooltipTwelveMonths": "{toolName} は過去 12 か月間に {numberOfViews} 回表示されました"
+  },
+  "Controls": {
+   "LabelTimeSpan": "期間",
+   "OptionTimeSpanSevenDays": "最後の 7 日",
+   "OptionTimeSpanThirtyDays": "最後の 30 日",
+   "OptionTimeSpanTwelveMonths": "過去 12 ヶ月間",
+   "AccessibilityTableSummary": "ツールアクセスレポートの結果を含むデータテーブル"
+  },
+  "TableHeaders": {
+   "Tool": "ツール",
+   "PercentViews": "表示回数（パーセント）",
+   "TotalViews": "表示の合計"
+  },
+  "Errors": {
+   "Table": "データテーブルを表示しようとしたときに、エラーが発生しました。"
+  },
+  "PageTitles": {
+   "GeneralError": "レポートの読み込みエラー"
+  },
+  "Export": {
+   "ReportName": "ツールアクセスレポート",
+   "ReportHeader": "ツールあたりのインタラクション: {startDate}～{endDate}",
+   "ToolIdColumnHeader": "ツール ID",
+   "ToolNameColumnHeader": "ツール名",
+   "ToolAccessColumnHeader": "ツールアクセスイベント",
+   "ToolPercentageColumnHeader": "ツールアクセスのパーセンテージ"
+  }
+ }
+}
