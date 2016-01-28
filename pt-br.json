@@ -1,0 +1,106 @@
+{
+ "Common": {
+  "Controls": {
+   "TextExportCSV": "Exportar para CSV",
+   "TextExportXLSX": "Exportar para XLSX",
+   "TitleExportCSV": "Exportar o intervalo de datas selecionado no momento para CSV",
+   "TitleExportXLSX": "Exportar o intervalo de datas selecionado no momento para XLSX",
+   "TitleExportAll": "Exportar todos os dados para pasta de trabalho do Excel"
+  },
+  "Errors": {
+   "General": "Desculpe, ocorreu um erro técnico ao carregar o relatório.",
+   "Meta": "Um erro foi encontrado ao tentar modificar um erro na tela."
+  },
+  "Misc": {
+   "FeatureUnsupported": "Este recurso não é compatível com seu navegador",
+   "Loading": "Carregando..."
+  }
+ },
+ "LoginsReport": {
+  "Misc": {
+   "Summary": "De {StartDate} - {EndDate} {countLine} eventos de login ocorreram",
+   "TimeZoneNote": "Horários exibidos estão na Hora do Meridiano de Greenwich (GMT 0:00)",
+   "TodaySoFar": "Hoje até agora",
+   "SoFar": "Até agora",
+   "LoginEvents": "Eventos de login"
+  },
+  "Headers": {
+   "TotalPerDay": "Total de logins por dia",
+   "TotalPerMonth": "Total de logins por mês",
+   "TotalPerDayForRole": "Total de logins por dia para {role}",
+   "TotalPerMonthForRole": "Total de logins por mês para {role}"
+  },
+  "Errors": {
+   "Accessibility": "Ocorreu um erro ao tentar preencher a tabela de dados de acessibilidade."
+  },
+  "Warnings": {
+   "StartDateGTEndDate": "Você selecionou uma data de início posterior à data final. A data de início foi alterada para a mais distante possível antes da data final: {date}.",
+   "EndDateLTStartDate": "Você selecionou um data final anterior à data de início. A data final foi alterada para a mais próxima possível após a data de início: {date}.",
+   "StartDateInvalid": "A data de início não está em um formato válido Dia/Mês/Ano. Ela foi redefinida para a data selecionada anteriormente: {date}.",
+   "ShortStartDateInvalid": "Inserir como DD/MM/AAAA",
+   "EndDateInvalid": "A data final não está em um formato válido Dia/Mês/Ano. Ela foi redefinida para a data selecionada anteriormente: {date}.",
+   "ShortEndDateInvalid": "Inserir como DD/MM/AAAA"
+  },
+  "Controls": {
+   "LabelStartDate": "Data de início",
+   "LabelEndDate": "Data final",
+   "LabelGranularity": "Granularidade",
+   "OptionGranularityPerDay": "Por dia",
+   "OptionGranularityPerMonth": "Por mês",
+   "AccessibilityTableHeader": "Dados do relatório de login",
+   "AccessibilityTableSummary": "Tabela de dados contendo resultados do relatório login",
+   "AccessibilityTableColumnDate": "Data",
+   "AccessibilityTableColumnLogins": "Número de logins",
+   "AccessibilityStartDateTitle": "Data de início do relatório no formato de Dia/Mês/Ano",
+   "AccessibilityEndDateTitle": "Data final do relatório no formato de Dia/Mês/Ano",
+   "LabelRole": "Função",
+   "OptionAllRoles": "Todas as funções"
+  },
+  "Export": {
+   "ReportName": "Relatório de login",
+   "DateColumnHeader": "Data",
+   "LoginColumnHeader": "Eventos de login"
+  }
+ },
+ "ToolAccessReport": {
+  "Misc": {
+   "TimeZoneNote": "Dias calculados usando Hora do Meridiano de Greenwich (GMT 0:00)"
+  },
+  "Headers": {
+   "InteractionsPerTool": "Interações por ferramenta",
+   "Summary": "{startDate} &ndash; {endDate}"
+  },
+  "Tooltip": {
+   "Tooltip": "{toolName} foi visualizado {numberOfViews} vezes",
+   "TooltipSevenDays": "{toolName} foi visualizado {numberOfViews} vezes nos últimos 7 dias",
+   "TooltipThirtyDays": "{toolName} foi visualizado {numberOfViews} vezes nos últimos 30 dias",
+   "TooltipTwelveMonths": "{toolName} foi visualizado {numberOfViews} vezes nos últimos 12 meses"
+  },
+  "Controls": {
+   "LabelTimeSpan": "Intervalo de tempo",
+   "OptionTimeSpanSevenDays": "Últimos 7 dias",
+   "OptionTimeSpanThirtyDays": "Últimos 30 dias",
+   "OptionTimeSpanTwelveMonths": "Últimos 12 meses",
+   "AccessibilityTableSummary": "Tabela de dados com os resultados do Relatório de acesso à ferramenta"
+  },
+  "TableHeaders": {
+   "Tool": "Ferramenta",
+   "PercentViews": "Porcentagem de exibições",
+   "TotalViews": "Total de exibições"
+  },
+  "Errors": {
+   "Table": "Ocorreu um erro ao tentar exibir a tabela de dados."
+  },
+  "PageTitles": {
+   "GeneralError": "Erro ao carregar relatório"
+  },
+  "Export": {
+   "ReportName": "Relatório de acesso à ferramenta",
+   "ReportHeader": "Interações por ferramenta: {startDate} - {endDate}",
+   "ToolIdColumnHeader": "ID da ferramenta",
+   "ToolNameColumnHeader": "Nome da ferramenta",
+   "ToolAccessColumnHeader": "Eventos de acesso à ferramenta",
+   "ToolPercentageColumnHeader": "Porcentagem de acesso à ferramenta"
+  }
+ }
+}

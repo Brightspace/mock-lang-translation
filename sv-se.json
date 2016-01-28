@@ -1,0 +1,106 @@
+{
+ "Common": {
+  "Controls": {
+   "TextExportCSV": "Exportera till CSV",
+   "TextExportXLSX": "Exportera till XLSX",
+   "TitleExportCSV": "Exportera valt datumintervall till CSV",
+   "TitleExportXLSX": "Exportera valt datumintervall till XLSX",
+   "TitleExportAll": "Exportera alla data till arbetsbok i Excel"
+  },
+  "Errors": {
+   "General": "Det gick inte att läsa in rapporten på grund av ett tekniskt fel.",
+   "Meta": "Ett fel uppstod när ett fel på skärmen skulle ändras."
+  },
+  "Misc": {
+   "FeatureUnsupported": "Webbläsaren är inte kompatibel med funktionen",
+   "Loading": "Läser in..."
+  }
+ },
+ "LoginsReport": {
+  "Misc": {
+   "Summary": "Från {startDate} till {endDate} gjordes {countLine} inloggningar",
+   "TimeZoneNote": "Tiderna visas i Greenwich Mean Time (GMT 0:00)",
+   "TodaySoFar": "Idag",
+   "SoFar": "Hittills",
+   "LoginEvents": "inloggningar"
+  },
+  "Headers": {
+   "TotalPerDay": "Inloggningar per dag",
+   "TotalPerMonth": "Inloggningar per månad",
+   "TotalPerDayForRole": "Inloggningar per dag för {role}",
+   "TotalPerMonthForRole": "Inloggningar per månad för {role}"
+  },
+  "Errors": {
+   "Accessibility": "Ett fel inträffade när tabellen med tillgänglighetsdata skulle fyllas i."
+  },
+  "Warnings": {
+   "StartDateGTEndDate": "Startdatumet infaller efter slutdatumet. Startdatumet har ändrats till senast möjliga datum före slutdatumet: {date}.",
+   "EndDateLTStartDate": "Slutdatumet infaller före startdatumet. Slutdatumet har ändrats till tidigast möjliga datum efter startdatumet: {date}.",
+   "StartDateInvalid": "Startdatumet har inte det giltiga formatet månad/dag/år. Det har återställts till det tidigare valda datumet: {date}.",
+   "ShortStartDateInvalid": "Ange som MM/DD/ÅÅÅÅ",
+   "EndDateInvalid": "Slutdatumet har inte det giltiga formatet månad/dag/år. Det har återställts till det tidigare valda datumet: {date}.",
+   "ShortEndDateInvalid": "Ange som MM/DD/ÅÅÅÅ"
+  },
+  "Controls": {
+   "LabelStartDate": "Startdatum",
+   "LabelEndDate": "Slutdatum",
+   "LabelGranularity": "Granularitet",
+   "OptionGranularityPerDay": "Per dag",
+   "OptionGranularityPerMonth": "Per månad",
+   "AccessibilityTableHeader": "Data för inloggningsrapport",
+   "AccessibilityTableSummary": "Datatabell med inloggningsrapportens resultat",
+   "AccessibilityTableColumnDate": "Datum",
+   "AccessibilityTableColumnLogins": "Antal inloggningar",
+   "AccessibilityStartDateTitle": "Rapportens startdatum är i formatet månad/dag/år",
+   "AccessibilityEndDateTitle": "Rapportens slutdatum är i formatet månad/dag/år",
+   "LabelRole": "Roll",
+   "OptionAllRoles": "Alla roller"
+  },
+  "Export": {
+   "ReportName": "Inloggningsrapport",
+   "DateColumnHeader": "Datum",
+   "LoginColumnHeader": "Inloggningar"
+  }
+ },
+ "ToolAccessReport": {
+  "Misc": {
+   "TimeZoneNote": "Dagar anges med Greenwich Mean Time (GMT 0:00)"
+  },
+  "Headers": {
+   "InteractionsPerTool": "Interaktioner per verktyg",
+   "Summary": "{startDate} &ndash; {endDate}"
+  },
+  "Tooltip": {
+   "Tooltip": "{toolName} har visats {numberOfViews} gånger",
+   "TooltipSevenDays": "{toolName} har visats {numberOfViews} gånger de senaste 7 dagarna",
+   "TooltipThirtyDays": "{toolName} har visats {numberOfViews} gånger de senaste 30 dagarna",
+   "TooltipTwelveMonths": "{toolName} har visats {numberOfViews} gånger de senaste 12 månaderna"
+  },
+  "Controls": {
+   "LabelTimeSpan": "Tidsintervall",
+   "OptionTimeSpanSevenDays": "Senaste 7 dagarna",
+   "OptionTimeSpanThirtyDays": "Senaste 30 dagarna",
+   "OptionTimeSpanTwelveMonths": "Senaste 12 månaderna",
+   "AccessibilityTableSummary": "Datatabell med resultaten från verktygsåtkomstrapporten"
+  },
+  "TableHeaders": {
+   "Tool": "Verktyg",
+   "PercentViews": "Visningar i procent",
+   "TotalViews": "Totalt antal visningar"
+  },
+  "Errors": {
+   "Table": "Ett fel uppstod när datatabellen skulle visas."
+  },
+  "PageTitles": {
+   "GeneralError": "Det gick inte att läsa in rapporten"
+  },
+  "Export": {
+   "ReportName": "Verktygsåtkomstrapport",
+   "ReportHeader": "Interaktioner per verktyg: {startDate} till {endDate}",
+   "ToolIdColumnHeader": "Verktygs-ID",
+   "ToolNameColumnHeader": "Verktygsnamn",
+   "ToolAccessColumnHeader": "Händelser med åtkomst till verktyg",
+   "ToolPercentageColumnHeader": "Procentandel av åtkomst till verktyg"
+  }
+ }
+}
