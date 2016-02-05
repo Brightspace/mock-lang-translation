@@ -29,12 +29,12 @@
    "Http403": "You are not authorized to save this rubric assessment.",
    "Http404": "Unable to find assessment.  Has the rubric or student been recently deleted?"
    
-	"Rubric": {
-		"CriterionFeedback": "Criterion Feedback",
-		"DoneEnteringFeedback": "Done",
-		"EnterCriterionFeedback": "Enter criterion feedback",
-		"OverallRubricFeedback": "Overall Rubric Feedback",
-		"ScoreOutOfRangeError": "Value must be between 0 and 100,000",
+"Rubric": {
+	"CriterionFeedback": "Criterion Feedback",
+	"DoneEnteringFeedback": "Done",
+	"EnterCriterionFeedback": "Enter criterion feedback",
+	"OverallRubricFeedback": "Overall Rubric Feedback",
+	"ScoreOutOfRangeError": "Value must be between 0 and 100,000",
 	}
   }
  }
