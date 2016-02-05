@@ -1,0 +1,33 @@
+{
+ "Welcome": {
+  "PageTitle": "D2L 루브릭 테스트 앱",
+  "Loading": "루브릭 로드 중..."
+ },
+ "Rubric": {
+  "CriteriaGroup": {
+   "DefaultTitle": "기준"
+  },
+  "PluralPoints": "{number, plural, one{1점} other{#점}}",
+  "OverallScore": "전체 점수",
+  "Override": "재설정",
+  "ClearOverride": "재설정 지우기",
+  "ClearFeedback": "피드백 지우기",
+  "TypeCriterionFeedback": "기준 피드백 입력",
+  "RestorePredefinedFeedback": "사전 정의된 피드백 복원",
+  "RestoreCustomFeedback": "맞춤형 피드백 복원",
+  "NumberOrMore": "{number} 이상",
+  "Description": "설명",
+  "PredefinedFeedback": "사전 정의된 피드백",
+  "PercentOrMore": "{percentage}% 이상",
+  "Levels": "수준",
+  "ClearFeedbackPrompt": "조정된 피드백을 지우시겠습니까?",
+  "Feedback": "피드백",
+  "SaveError": {
+   "ErrorDisplay": "오류 저장 {rubric}: {reason}",
+   "HttpOther": "예상치 못한 오류입니다.  관리자에게 문의하십시오.",
+   "Http400": "평가 날짜가 유효하지 않은 상태입니다.  점수와 단계를 다시 한 번 확인하시기 바랍니다.",
+   "Http403": "이 루브릭 평가를 저장할 수 있는 권한이 없습니다.",
+   "Http404": "평가를 찾을 수 없습니다.  루브릭 또는 학생이 최근에 삭제되었습니까?"
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "Welcome": {
+  "PageTitle": "D2L 量规测试应用程序",
+  "Loading": "正在加载量规..."
+ },
+ "Rubric": {
+  "CriteriaGroup": {
+   "DefaultTitle": "标准"
+  },
+  "PluralPoints": "{number, plural, one{1 分} other{# 分}}",
+  "OverallScore": "总分数",
+  "Override": "改写",
+  "ClearOverride": "清除改写",
+  "ClearFeedback": "清除反馈",
+  "TypeCriterionFeedback": "键入标准反馈",
+  "RestorePredefinedFeedback": "恢复预定义反馈",
+  "RestoreCustomFeedback": "恢复自定义反馈",
+  "NumberOrMore": "{number} 或更多",
+  "Description": "描述",
+  "PredefinedFeedback": "预定义反馈",
+  "PercentOrMore": "{percentage}% 或更多",
+  "Levels": "级别",
+  "ClearFeedbackPrompt": "确实要清除调整的反馈吗？",
+  "Feedback": "反馈",
+  "SaveError": {
+   "ErrorDisplay": "保存 时出现错误 {rubric} :{reason}",
+   "HttpOther": "意外错误。请与管理员联系。",
+   "Http400": "评估处于无效状态。请仔细检查分数和级别。",
+   "Http403": "您无权保存此量规评估。",
+   "Http404": "找不到评估。最近是否删除了该量规或学生？"
+  }
+ }
+}

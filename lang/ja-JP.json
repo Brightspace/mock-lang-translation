@@ -1,0 +1,33 @@
+{
+ "Welcome": {
+  "PageTitle": "D2L 注釈テストアプリ",
+  "Loading": "注釈を読み込んでいます..."
+ },
+ "Rubric": {
+  "CriteriaGroup": {
+   "DefaultTitle": "条件"
+  },
+  "PluralPoints": "{number, plural, one{1 ポイント} other{# ポイント}}",
+  "OverallScore": "全体のスコア",
+  "Override": "上書き",
+  "ClearOverride": "上書きのクリア",
+  "ClearFeedback": "フィードバックのクリア",
+  "TypeCriterionFeedback": "条件のフィードバックの入力",
+  "RestorePredefinedFeedback": "定義されたフィードバックの復元",
+  "RestoreCustomFeedback": "カスタムフィードバックの復元",
+  "NumberOrMore": "{number} 以上",
+  "Description": "説明",
+  "PredefinedFeedback": "定義されたフィードバック",
+  "PercentOrMore": "{percentage}% 以上",
+  "Levels": "レベル",
+  "ClearFeedbackPrompt": "調整されたフィードバックをクリアしてもよろしいですか？",
+  "Feedback": "フィードバック",
+  "SaveError": {
+   "ErrorDisplay": "{rubric} の保存中にエラーが発生しました:{reason}",
+   "HttpOther": "予期しないエラー。管理者に連絡してください。",
+   "Http400": "評価の状態が無効です。スコアとレベルを再確認してください。",
+   "Http403": "この注釈評価を保存する権限がありません。",
+   "Http404": "評価が見つかりません。注釈または受講者を最近削除しましたか？"
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "Welcome": {
+  "PageTitle": "Application de D2L pour tester les rubriques",
+  "Loading": "Téléchargement des rubriques..."
+ },
+ "Rubric": {
+  "CriteriaGroup": {
+   "DefaultTitle": "Critère"
+  },
+  "PluralPoints": "{number, plural, one{1 point} other{# points}}",
+  "OverallScore": "Score global",
+  "Override": "Remplacement",
+  "ClearOverride": "Effacer les remplacements",
+  "ClearFeedback": "Effacer la rétroaction",
+  "TypeCriterionFeedback": "Saisir la rétroaction sur les critères",
+  "RestorePredefinedFeedback": "Restaurer la rétroaction prédéterminée",
+  "RestoreCustomFeedback": "Restaurer la rétroaction personnalisée",
+  "NumberOrMore": "{number} ou plus",
+  "Description": "Description",
+  "PredefinedFeedback": "Rétroaction prédéterminée",
+  "PercentOrMore": "{percentage} % ou plus",
+  "Levels": "Niveaux",
+  "ClearFeedbackPrompt": "Voulez-vous vraiment supprimer la rétroaction rajustée?",
+  "Feedback": "Rétroaction",
+  "SaveError": {
+   "ErrorDisplay": "Erreur pendant la sauvegarde de {rubric} : {reason}",
+   "HttpOther": "Erreur inattendue.  Veuillez communiquer avec votre administrateur.",
+   "Http400": "Évaluation non valide.  Veuillez vérifier les scores et les niveaux de nouveau.",
+   "Http403": "Vous n'êtes pas autorisé à sauvegarder cette évaluation de rubrique.",
+   "Http404": "Évaluation introuvable.  La rubrique ou le dossier de l'étudiant a-t-il été supprimé récemment?"
+  }
+ }
+}

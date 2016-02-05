@@ -1,0 +1,33 @@
+{
+ "Welcome": {
+  "PageTitle": "تطبيق اختبار آلية التقييم من D2L",
+  "Loading": "يتم الآن تحميل آليات التقييم..."
+ },
+ "Rubric": {
+  "CriteriaGroup": {
+   "DefaultTitle": "المعايير"
+  },
+  "PluralPoints": "{number, plural, one{نقطة واحدة} other{# النقاط}}",
+  "OverallScore": "مجموع الدرجات الإجمالي",
+  "Override": "تجاوز",
+  "ClearOverride": "مسح التجاوز",
+  "ClearFeedback": "مسح التعليقات",
+  "TypeCriterionFeedback": "كتابة تعليق حول المعيار",
+  "RestorePredefinedFeedback": "استعادة التعليق المعرّف مسبقًا",
+  "RestoreCustomFeedback": "استعادة التعليق المخصص",
+  "NumberOrMore": "{number} أو أكثر",
+  "Description": "الوصف",
+  "PredefinedFeedback": "التعليق المعرّف مسبقًا",
+  "PercentOrMore": "{percentage}% أو أكثر",
+  "Levels": "المستويات",
+  "ClearFeedbackPrompt": "هل ترغب بالتأكيد في مسح الملاحظات المعدّلة؟",
+  "Feedback": "الملاحظات",
+  "SaveError": {
+   "ErrorDisplay": "خطأ أثناء حفظ {rubric}: {reason}",
+   "HttpOther": "خطأ غير متوقع.  اتصل بمسؤول النظام لديك.",
+   "Http400": "التقييم في حالة غير صالحة.  يُرجى التحقق مرة أخرى من النتائج والمستويات.",
+   "Http403": "ليس مصرح لك حفظ آلية التقييم.",
+   "Http404": "يتعذر العثور على تقييم.  هل تم مؤخرًا حذف آلية التقييم أو الطالب؟"
+  }
+ }
+}
