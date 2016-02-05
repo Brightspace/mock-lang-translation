@@ -1,0 +1,33 @@
+{
+ "Welcome": {
+  "PageTitle": "Aplicación de evaluación de rúbrica de D2L",
+  "Loading": "Cargando rúbricas…"
+ },
+ "Rubric": {
+  "CriteriaGroup": {
+   "DefaultTitle": "Criterios"
+  },
+  "PluralPoints": "{number, plural, one{1 punto} other{# puntos}}",
+  "OverallScore": "Puntuación general",
+  "Override": "Ignorar",
+  "ClearOverride": "Limpiar anulación",
+  "ClearFeedback": "Limpiar comentarios",
+  "TypeCriterionFeedback": "Escribir el criterio de comentarios",
+  "RestorePredefinedFeedback": "Restaurar los comentarios predefinidos",
+  "RestoreCustomFeedback": "Restaurar los comentarios personalizados",
+  "NumberOrMore": "{number} o más",
+  "Description": "Descripción",
+  "PredefinedFeedback": "Comentarios predefinidos",
+  "PercentOrMore": "{percentage}% o más",
+  "Levels": "Niveles",
+  "ClearFeedbackPrompt": "¿Está seguro de que desea borrar los comentarios rectificados?",
+  "Feedback": "Comentarios",
+  "SaveError": {
+   "ErrorDisplay": "Error de guardado de {rubric}: {reason}",
+   "HttpOther": "Error inesperado.  Comuníquese con el administrador.",
+   "Http400": "La evaluación está en un estado no válido.  Revise los puntajes y los niveles.",
+   "Http403": "No está autorizado para guardar esta evaluación de rúbrica.",
+   "Http404": "No se puede encontrar la evaluación.  ¿Se borró la rúbrica o el estudiante recientemente?"
+  }
+ }
+}

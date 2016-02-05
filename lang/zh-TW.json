@@ -1,0 +1,33 @@
+{
+ "Welcome": {
+  "PageTitle": "D2L 量規測試應用程式",
+  "Loading": "正在載入量規..."
+ },
+ "Rubric": {
+  "CriteriaGroup": {
+   "DefaultTitle": "標準"
+  },
+  "PluralPoints": "{number, plural, one{1 分} other{# 分}}",
+  "OverallScore": "整體分數",
+  "Override": "覆寫",
+  "ClearOverride": "清除覆寫",
+  "ClearFeedback": "清除意見反應",
+  "TypeCriterionFeedback": "輸入標準意見反應",
+  "RestorePredefinedFeedback": "還原預先定義的意見反應",
+  "RestoreCustomFeedback": "還原自訂的意見反應",
+  "NumberOrMore": "{number} 或更多",
+  "Description": "說明",
+  "PredefinedFeedback": "預先定義的意見反應",
+  "PercentOrMore": "{percentage}% 或更高",
+  "Levels": "層級",
+  "ClearFeedbackPrompt": "確定要清除調整後的意見反應？",
+  "Feedback": "意見反應",
+  "SaveError": {
+   "ErrorDisplay": "儲存 {rubric} 時發生錯誤：{reason}",
+   "HttpOther": "非預期的錯誤。請聯絡您的管理員。",
+   "Http400": "評量處於無效狀態。請再次檢查分數與層級。",
+   "Http403": "您沒有儲存此量規評量的權限。",
+   "Http404": "無法尋找評量。量規或學生最近是否曾遭刪除？"
+  }
+ }
+}

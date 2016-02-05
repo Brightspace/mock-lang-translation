@@ -1,33 +1,33 @@
 {
-	"Welcome": {
-		"PageTitle": "D2L Rubric Test App",
-		"Loading": "Loading rubrics..."
-	},
-	"Rubric": {
-		"CriteriaGroup": {
-				"DefaultTitle": "Criteria"
-		},
-		"PluralPoints" : "{number, plural, one{1 Point} other{# Points}}",
-		"OverallScore" : "Overall Score",
-		"Override" : "Override",
-		"ClearOverride": "Clear Override",
-		"ClearFeedback": "Clear Feedback",
-		"TypeCriterionFeedback": "Type criterion feedback",
-		"RestorePredefinedFeedback": "Restore Predefined Feedback",
-		"RestoreCustomFeedback": "Restore Custom Feedback",
-		"NumberOrMore" : "{number} or more",
-		"Description": "Description",
-		"PredefinedFeedback": "Predefined Feedback",
-		"PercentOrMore" : "{percentage}% or more",
-		"Levels": "Levels",
-		"ClearFeedbackPrompt": "Are you sure you want to clear the adjusted feedback?",
-		"Feedback": "Feedback",
-		"SaveError": {
-			"ErrorDisplay": "Error saving {rubric}: {reason}",
-			"HttpOther": "Unexpected error.  Please contact your administrator.",
-			"Http400": "Assessment is in an invalid state.  Please double-check the scores and levels.",
-			"Http403": "You are not authorized to save this rubric assessment.",
-			"Http404": "Unable to find assessment.  Has the rubric or student been recently deleted?"
-		}
-	}
+ "Welcome": {
+  "PageTitle": "D2L Rubric Test App",
+  "Loading": "Loading rubrics..."
+ },
+ "Rubric": {
+  "CriteriaGroup": {
+   "DefaultTitle": "Criteria"
+  },
+  "PluralPoints": "{number, plural, one{1 Point} other{# Points}}",
+  "OverallScore": "Overall Score",
+  "Override": "Override",
+  "ClearOverride": "Clear Override",
+  "ClearFeedback": "Clear Feedback",
+  "TypeCriterionFeedback": "Type criterion feedback",
+  "RestorePredefinedFeedback": "Restore Predefined Feedback",
+  "RestoreCustomFeedback": "Restore Custom Feedback",
+  "NumberOrMore": "{number} or more",
+  "Description": "Description",
+  "PredefinedFeedback": "Predefined Feedback",
+  "PercentOrMore": "{percentage}% or more",
+  "Levels": "Levels",
+  "ClearFeedbackPrompt": "Are you sure you want to clear the adjusted feedback?",
+  "Feedback": "Feedback",
+  "SaveError": {
+   "ErrorDisplay": "Error saving {rubric}: {reason}",
+   "HttpOther": "Unexpected error.  Please contact your administrator.",
+   "Http400": "Assessment is in an invalid state.  Please double-check the scores and levels.",
+   "Http403": "You are not authorized to save this rubric assessment.",
+   "Http404": "Unable to find assessment.  Has the rubric or student been recently deleted?"
+  }
+ }
 }
