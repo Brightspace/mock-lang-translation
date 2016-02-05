@@ -27,7 +27,7 @@
    "HttpOther": "Unexpected error.  Please contact your administrator.",
    "Http400": "Assessment is in an invalid state.  Please double-check the scores and levels.",
    "Http403": "You are not authorized to save this rubric assessment.",
-   "Http404": "Unable to find assessment.  Has the rubric or student been recently deleted?"
+   "Http404": "Unable to find assessment.  Has the rubric or student been recently deleted?",
    "CriterionFeedback": "Criterion Feedback",
    "DoneEnteringFeedback": "Done",
    "EnterCriterionFeedback": "Enter criterion feedback",
